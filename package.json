@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "prettier": "prettier --write .",
     "test": "jest",
-    "build": "your-build-command-here"
+    "build": "npm install"
   },
   "repository": {
     "type": "git",
