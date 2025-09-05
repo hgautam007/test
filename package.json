@@ -4,7 +4,10 @@
   "description": "na",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "test": "jest",
+    "build": "your-build-command-here"
   },
   "repository": {
     "type": "git",
