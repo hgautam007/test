@@ -13,9 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/hgautam007/test.git"
   },
-  "jest": {
-    "testEnvironment": "node"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
