@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "prettier": "prettier .",
-    "test": "jest",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "build": "echo \"Simulating build step\" && mkdir -p dist && echo 'build complete' > dist/index.html"
   },
   "repository": {
