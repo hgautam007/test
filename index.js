@@ -1,5 +1,5 @@
-function hello(name) {
-  return `Hello, ${name}`;
-}
+// index.js
 
-module.exports = hello;
+export function sayHello(name) {
+  return `Hello, ${name}!`;
+}

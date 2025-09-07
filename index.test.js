@@ -1,6 +1,7 @@
 /* eslint-env jest */
-const hello = require('./index.js');
 
-test('returns greeting message', () => {
-  expect(hello('DevOps')).toBe('Hello, DevOps');
+import { sayHello } from './index.js';
+
+test('greets by name', () => {
+  expect(sayHello('World')).toBe('Hello, World!');
 });
